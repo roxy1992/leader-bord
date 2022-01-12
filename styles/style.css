@@ -47,3 +47,28 @@ main{
     margin-left: 16px;
     font-size: 18px;
 }
+
+/*------------top blog style ---*/
+.blog{
+     display: flex;
+}
+
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-outhor{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-outhor{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
