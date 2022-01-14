@@ -2,6 +2,37 @@
     fonr
 ------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+header {
+    background-color: #562eff;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu-bar a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #ffffff;
+}
+.logo img {
+  width: 40px;
+  height: 51px;
+}
+.logo span {
+    font-size: 30px;
+    color: white;
+}
+.logo {
+    margin-right: -114px;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -146,9 +177,3 @@ mobaile querise
 /*----------------------
 tablet devices 
 ----------------------*/
-@media only screen and (min-width:992px) {
-    .players, .courses{
-        
-    }
-    
-}
